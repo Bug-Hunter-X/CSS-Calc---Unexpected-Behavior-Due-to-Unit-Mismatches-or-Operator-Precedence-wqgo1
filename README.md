@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle error in CSS involving the `calc()` function.  The `bug.css` file shows the problematic code. The `bugSolution.css` file provides the corrected code. This issue highlights the importance of paying close attention to units and operator precedence within the `calc()` function to avoid unexpected layout results.
