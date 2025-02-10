@@ -1,0 +1,9 @@
+To fix the issue, ensure all values within `calc()` have consistent units.  Use explicit units like `px`, `em`, `rem`, `%`, etc., as needed.  For complex calculations, use parentheses to control the order of operations to ensure accurate results. For example:
+
+/*Correct Usage*/
+width: calc(100% - 10px);
+height: calc((20px + 10px) * 2); 
+
+/*Incorrect Usage - Missing Units*/
+width: calc(100% - 10); /* Incorrect: Missing 'px' or other unit */
+height: calc(20px + 10px * 2); /*Incorrect: Multiplication happens before addition, leading to unexpected result*/
